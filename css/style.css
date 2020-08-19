@@ -1,0 +1,233 @@
+:root {
+    --branco: #e9e9e9;
+    --vermelho: #C0414A;
+    --preto: #2A2327;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    background: url(../images/top1.png) repeat-x;
+    background-position: top;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: var(--vermelho);
+
+}
+
+nav {
+    min-width: 360px;
+}
+
+nav li{
+    display: inline-block;
+    padding-top: 130px;
+    color: var(--branco);
+    font-size: 18px;
+    line-height: 94.3%;
+}
+
+nav li a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 94.3%;
+    text-transform: uppercase;
+    color: var(--branco);
+}
+
+nav li a:hover {
+    color: var(--preto);
+}
+
+.logo {
+    padding-top: 47px;
+}
+
+/* APRESENTAÇÃO E FOTO */
+.apresentacao {
+    display: flex;
+    flex-flow: row;
+}
+
+.textao {
+    display: flex;
+    flex-flow: column;
+    color: var(--branco);
+}
+
+.textao h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    background-color: var(--vermelho);
+}
+
+.textao h3 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 94.3%;
+    padding-top: 20px;
+    background-color: var(--vermelho);
+}
+
+.imagem-apresentacao {
+    margin-left: 50px;
+}
+
+/* INFORMAÇÕES */
+
+.informacoes {
+    padding-top: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes li {
+    margin: 25px;
+}
+.botoes li a {
+    display: block;
+    width: 330px;
+    line-height: 70px;
+    font-size: 24px;
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textinho {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 94.3%;
+}
+
+.textinho p {
+    width: 35rem;
+    margin-left: 5rem;
+}
+
+.titulo {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 94.3%;
+    display: flex;
+    align-self: center;
+    text-transform: uppercase;
+    color: var(--preto);
+}
+
+.titulo a {
+    color: var(--preto);
+}
+
+.calendario {
+    display: flex;
+    flex-direction: column;
+    color: var(--branco);
+    text-transform: uppercase;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendario ul {
+    padding-top: 70px;
+}
+
+.calendario ul li p {
+    display: block;
+    background-color: var(--preto);
+    line-height: 50px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.calendario ul li p:hover {
+    background-color: var(--vermelho);
+    transition: 0.3s;
+}
+.calendario ul li {
+    margin-bottom: 10px;
+}
+
+/* FOTOS */
+
+.fotos {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* FOOTER */
+
+footer {
+    margin: auto;
+    background-color: var(--vermelho);
+    width: 100%;
+    height: 200px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p, a, h3 {
+    color: var(--branco);
+}
+
+footer h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    padding-top: 5px;
+    font-size: 14px
+}
+
+.strong {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
